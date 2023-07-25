@@ -1,0 +1,15 @@
+//cluster_name = "cluster_test"
+vpc_name = "vpc_test"
+cidr_vpc = "10.0.0.0/16"
+subnet_public = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+subnet_private = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
+azs=   ["us-east-1a", "us-east-1b", "us-east-1c"]
+cluster_version = "1.26"
+root_volume_type = "gp2"
+name_worker = "worker-test"
+instance_type = "t3.micro"
+asg_desired_capacity = "1"
+cluster_endpoint_private_access = "true"
+ecr_01 = "facturas"
+ecr_02 = "tesoreria"
+ecr_03 = "invantario"
